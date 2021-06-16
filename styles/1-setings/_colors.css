@@ -1,0 +1,9 @@
+:root{
+    --main-black:#000;
+    --main-white:#fff;
+    --white-blur:hsla(0,0%,100%,0.6);
+    --main-gray:#b3b3b3;
+    --dark-gray:#1f1f1f;
+    --main-red:#ee353b;
+    --main-blue:#2d3091;
+}

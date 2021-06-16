@@ -1,0 +1,9 @@
+@import "./1-setings/_colors.css";
+@import "./1-setings/_fonts.css";
+@import "./1-setings/_spacing.css";
+@import "./1-setings/_typograhy.css";
+@import "./2-zeroing/_box-sizing.css";
+@import "./2-zeroing/_common-margin-padding.css";
+@import "./2-zeroing/_common-style-blocks.css";
+@import "./2-zeroing/_common-style-form.css";
+@import "./3-design-tokens/_connection-style.css";

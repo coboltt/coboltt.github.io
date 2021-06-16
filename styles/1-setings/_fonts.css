@@ -1,0 +1,8 @@
+@font-face{font-family:FuturaBookC;
+    font-style:normal;
+    font-weight:400;
+    src:local("FuturaBookC"),
+    url(../../fonts/futurabookc.otf) format("otf"),
+    url(../../fonts/futurabookc.ttf) format("truetype"),
+    url(../../fonts/futurabookc.woff) format("woff")
+}
