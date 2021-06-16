@@ -1,0 +1,42 @@
+.history-content-container__about-us,
+.project-content-container__about-us {
+    display:none;margin:0 auto;width:90%
+}
+.section--visable {
+    display:block
+}
+.project-container__about-us,
+.section-container__about-us {
+    height:110vh;margin:0 auto;position:relative;width:80%
+}
+.project-container__about-us:last-child {
+    height:70vh;margin-top:15%
+}
+.btn-switch-page-container__about-us {
+    display:flex;gap:4em;position:absolute;right:20%;top:12%
+}
+.btn-switch-page-history__about-us,
+.btn-switch-page-project__about-us {
+    background-color:var(--main-white);color:var(--main-black);font-size:var(--btn-pg);outline:none;text-transform:uppercase
+}
+.btn-switch-page-history__about-us:focus,
+.btn-switch-page-project__about-us:focus {
+    border:none
+}
+.btn-switch-page--active {
+    color:var(--main-red)
+}
+.new-block-container-1x1__main-news,
+.new-block-container-1x3__main-news,
+.new-block-container-2x1__main-news,
+.new-block-container-2x2__main-news,
+.new-block-container-3x2__main-news {
+    transition:.2s
+}
+.new-block-container-1x1__main-news:hover,
+.new-block-container-1x3__main-news:hover,
+.new-block-container-2x1__main-news:hover,
+.new-block-container-2x2__main-news:hover,
+.new-block-container-3x2__main-news:hover {
+    transform:scale(1.02)
+}

@@ -1,0 +1,117 @@
+.leaders-slider-container__leaders {
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    gap: 4em;
+}
+
+.bg-figure-leader-slider__leaders {
+   background-color: var(--main-red);
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   transition: .2s;
+   box-shadow:-5px 7px 13px -4px rgba(0,0,0,.6);
+}
+
+.bg-figure-leader-slider__leaders:hover  {
+    transform: scale(1.02);
+}
+
+.leader-slider-photo-container__leaders {
+    grid-row-gap:3.5%;
+    bottom:0;
+    display:grid;
+    grid-template-columns:1fr;
+    grid-template-rows:90% -webkit-max-content;
+    grid-template-rows:90% max-content;
+    height:390px;
+    justify-items:center;
+    width:280px;
+}
+
+.img-leader-container__leaders  {
+    margin-top: 2em;
+    background-color:var(--dark-gray);
+    border-radius:10px;
+    width: 100%;
+    height: 320px;
+    border-radius: 10px;
+}
+
+.img-leader__leaders  {
+    min-width: 100%;
+    height: inherit;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 10px
+}
+
+.circle-slider-container__leaders {
+    align-self:center;
+    display:flex
+}
+
+.circle-item-slider__leaders {
+    background:none;
+    border:3px solid var(--main-gray);
+    border-radius:50%;
+    display:block;
+    height:15px;
+    padding:0;
+    width:15px;
+}
+
+.circle-item-slider__leaders:not(:last-child) {
+    margin-right:5px;
+}
+
+.active-circle-item-slider__leaders {
+    border-color:var(--dark-gray);
+}
+
+.leader-slider-info-container__leaders {
+    align-items:center;
+    color:var(--main-white);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    text-align:center;
+    width: 90%;
+}
+
+.leader-name__leaders,.leader-post__leadres {
+    font-size:var(--p);
+    font-weight:400;
+    line-height:1.4;
+    margin:0;
+    padding:0;
+}
+
+.leader-name__leaders {
+    font-size:var(--h5);
+}
+
+.leader-main-info__leaders {
+    font-size:var(--p-sp);
+}
+
+.leader-social-link-container__leaders {
+    display:flex;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    justify-content:space-between;
+    width:50%;
+}
+
+.leader-social-link__leaders  {
+    transition: .2s;
+}
+
+.leader-social-link__leaders:hover  {
+    transform: scale(1.1);
+}

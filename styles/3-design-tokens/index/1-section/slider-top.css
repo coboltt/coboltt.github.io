@@ -1,0 +1,132 @@
+.wrapper__body {
+    border-bottom:3px solid var(--main-blue);
+    border-top:3px solid var(--main-blue)
+}
+.mainSlider {
+    display:flex;
+    height:83vh;
+    overflow:hidden;
+    position:relative
+}
+.mainSlider__container {
+    display:flex;
+    height:inherit;
+    left:0;
+    position:absolute;
+    top:0;
+    transition:.4s
+}
+.slide {
+    min-width:100vw
+}
+.mainSlider__controls {
+    align-items:center;
+    display:flex;
+    justify-content:center;
+    z-index:5
+}
+.mainSlider__btn {
+    background:none;
+    outline:none;
+    position:absolute;
+    top:30%;
+    transition:.2s
+}
+.mainSlider__btn:hover {
+    transform:scale(1.1)
+}
+.img-btn-next__slider,.img-btn-prev__slider {
+    fill:var(--main-white);
+    width:40px
+}
+.mainSlider__btn--prev {
+    left:2%
+}
+.mainSlider__btn--next {
+    right:2%
+}
+.slide__bg {
+    height:inherit;
+    position:relative;
+    width:inherit;
+    z-index:-1
+}
+.bg__slider {
+    height:83vh;
+    min-width:100%;
+    -o-object-fit:cover;
+    object-fit:cover;
+    overflow:hidden;
+    position:absolute;
+    right:0;
+    top:0
+}
+.slide__content {
+    height:83vh;
+    margin:0 0 0 60%;
+    padding:1% 1.5%;
+    width:24%;
+    z-index:2
+}
+.content-slide {
+    align-items:center;
+    background-color:rgba(0,0,0,.8);
+    color:var(--main-white);
+    display:flex;
+    flex-direction:column
+}
+.content-slide__title {
+    background-color:var(--main-white);
+    border-radius:10px;
+    color:var(--main-black);
+    font-size:1.5em;
+    margin-bottom:2%;
+    text-align:center;
+    text-transform:uppercase
+}
+.content-slide__news {
+    -webkit-line-clamp:14;
+    -webkit-box-orient:vertical;
+    display:-webkit-box;
+    font-size:var(--p-nws);
+    margin-top:20px;
+    overflow:hidden;
+    text-align:justify;
+    text-overflow:ellipsis
+}
+.content-slide__ext-block {
+    align-items:center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    margin-top:10%
+}
+.content-slide__extra-info {
+    background-color:var(--main-white);
+    color:var(--main-black);
+    font-size:var(--a-sp);
+    max-width:100%;
+    padding:4px 14px;
+    position:relative;
+    text-decoration:none;
+    text-transform:uppercase;
+    transition:.4s;
+    z-index:575
+}
+.content-slide__extra-info:hover {
+    color:var(--main-red)
+}
+.mainSlider__pagination {
+    display:flex;
+    justify-content:space-between;
+    margin-top:6%;
+    width:100%
+}
+.pagination__item {
+    background-color:var(--main-white);
+    height:3px;
+    width:20%
+}
+.pagination__item--active {
+    background-color:var(--main-red)
+}

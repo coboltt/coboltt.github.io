@@ -1,0 +1,37 @@
+.additional-footer-container__body {
+    background-color:var(--main-black);
+    height:100px;
+    margin-top:30px
+}
+.additional-footer-container__sub-footer {
+    align-items:center;
+    display:flex;
+    font-size:var(--p-sp);
+    font-weight:400;
+    height:inherit;
+    justify-content:space-between;
+    margin:0 auto;
+    width:60%
+}
+.devoloper-link__sub-footer,.devoloper-name__sub-footer,.name-organization__sub-footer,.number-phone__sub-footer,.receipt-date_sub-footer,.receipt-time__sub-footer {
+    color:var(--main-white);
+    text-decoration:none
+}
+.red-letters__sub-footer {
+    color:var(--main-red)
+}
+.info-works-container__footer {
+    font-family:FuturaBookC;
+    text-align:right;
+    text-transform:uppercase
+}
+.number-phone__sub-footer {
+    margin-right:10px
+}
+.name-organization__sub-footer {
+    margin:0;
+    padding:0
+}
+.schedule-work-container__sub-footer {
+    margin:0
+}

@@ -1,0 +1,49 @@
+body {
+    background-color:var(--main-white);
+    margin:0 auto;
+    overflow-x:hidden
+}
+.js-focus-visible:focus:not(.focus-visible) {
+    outline:none
+}
+.container__body {
+    margin:0 auto;
+    width:90%
+}
+.title-block-section-container__body {
+    align-items:center;
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:30px;
+    margin-top:30px;
+    position:relative;
+    width:100%
+}
+.title-block-section-container__body:before {
+    background:var(--main-gray);
+    content:"";
+    height:2px;
+    left:0;
+    position:absolute;
+    top:18px;
+    width:100vw;
+    z-index:-1
+}
+.title-block-section__body {
+    font-family:FuturaBookC;
+    font-size:var(--h2);
+    font-weight:400;
+    margin-left:20%;
+    position:relative;
+    text-transform:uppercase;
+    z-index:2
+}
+.title-block-section__body:before {
+    background-color:var(--main-white);
+    content:"";
+    height:100%;
+    left:-5%;
+    position:absolute;
+    width:110%;
+    z-index:-1
+}
