@@ -13,20 +13,20 @@
     opacity:.4;
     position:absolute;
     top:3%;
-    width:800px;
+    width: 40vw;
     z-index:-1
 }
 .project-image-1__about-us {
     height:100%;
     -o-object-fit:cover;
     object-fit:cover;
-    width:800px
+    width: 40vw
 }
 .project-info-info-1__about-us {
     -webkit-line-clamp:15;
     -webkit-box-orient:vertical;
     background-color:var(--white-blur);
-    border-radius:10px;
+    /* border-radius:10px; */
     bottom:10%;
     display:-webkit-box;
     font-size:var(--p-arcl);
