@@ -27,7 +27,7 @@
     -webkit-box-orient:vertical;
     background-color:var(--white-blur);
     /* border-radius:10px; */
-    bottom:10%;
+    top: 30%;
     display:-webkit-box;
     font-size:var(--p-arcl);
     left:15%;
