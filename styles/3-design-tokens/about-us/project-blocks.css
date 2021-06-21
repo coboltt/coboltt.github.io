@@ -13,7 +13,7 @@
     opacity:.4;
     position:absolute;
     top:3%;
-    width: 60vw;
+    width: 52vw;
     z-index:-1
 }
 .project-image-1__about-us {
@@ -27,7 +27,7 @@
     -webkit-box-orient:vertical;
     background-color:var(--white-blur);
     /* border-radius:10px; */
-    top: 30%;
+    top: 42%;
     display:-webkit-box;
     font-size:var(--p-arcl);
     left:15%;
@@ -44,7 +44,7 @@
     font-size:var(--t-big);
     line-height:1;
     position:absolute;
-    right:6%;
+    left:36%;
     text-align:right;
     top:4%
 }
@@ -61,21 +61,21 @@
     min-height:100%;
     opacity:.4;
     position:absolute;
-    width:800px;
+    width: 52vw;
     z-index:-1
 }
 .project-image-2__about-us {
     height:100%;
     -o-object-fit:cover;
     object-fit:cover;
-    width:800px
+    width:inherit
 }
 .project-info-info-2__about-us {
     -webkit-line-clamp:15;
     -webkit-box-orient:vertical;
     background-color:var(--white-blur);
-    border-radius:10px;
-    bottom:10%;
+    /* border-radius:10px;   */
+    top: 35%;
     display:-webkit-box;
     font-size:var(--p-arcl);
     left:12%;
@@ -108,14 +108,14 @@
     min-height:100%;
     opacity:.4;
     position:absolute;
-    width:800px;
+    width: 52vw;
     z-index:-1
 }
 .project-image-3__about-us {
     height:100%;
     -o-object-fit:cover;
     object-fit:cover;
-    width:800px
+    width:inherit
 }
 .project-info-3__about-us {
     -webkit-line-clamp:15;
@@ -136,7 +136,7 @@
     width:50%
 }
 .title-project-4__about-us {
-    bottom:2%;
+    bottom:8%;
     color:var(--dark-gray);
     font-size:var(--t-big);
     line-height:1;
@@ -155,21 +155,21 @@
     opacity:.4;
     position:absolute;
     top:8%;
-    width:800px;
+    width: 52vw;
     z-index:-1
 }
 .project-image-4__about-us {
     height:100%;
     -o-object-fit:cover;
     object-fit:cover;
-    width:800px
+    width:inherit
 }
 .project-info-4__about-us {
     -webkit-line-clamp:15;
     -webkit-box-orient:vertical;
     background-color:var(--white-blur);
     border-radius:10px;
-    bottom:20%;
+    bottom:45%;
     display:-webkit-box;
     font-size:var(--p-arcl);
     left:0;
@@ -181,4 +181,26 @@
     text-decoration:none;
     text-overflow:ellipsis;
     width:50%
+}
+
+
+@media (min-device-width:1650px) and (max-device-width:2400px) {
+    :root{
+        --d-year:8.5rem;
+        
+        --t-big:7.625rem;
+        
+        --t-sml:5.2rem;
+
+        --p-arcl:2em;
+
+    }
+
+    .project-container__about-us,
+    .section-container__about-us {
+        height:110vh;
+        margin: 30vh auto;
+        position:relative;
+        width:80vw
+    }
 }

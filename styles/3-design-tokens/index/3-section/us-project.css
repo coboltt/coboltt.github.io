@@ -46,12 +46,11 @@
     font-family:FuturaBookC;
     font-size:var(--a);
     margin-top:10px;
-    padding:5px 0;
+    padding:5px 10px;
     text-align:center;
     text-decoration:none;
     text-transform:uppercase;
     transition:.2s;
-    width:120px
 }
 .project-button__project:hover {
     border-color:var(--main-red);

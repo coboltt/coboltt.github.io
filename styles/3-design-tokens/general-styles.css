@@ -47,3 +47,42 @@ body {
     width:110%;
     z-index:-1
 }
+
+@media (min-device-width:1700px) and (max-device-width: 10000px) {
+    /* :root{
+        --h1:2.2em;
+        
+        --h2:2em;
+        
+        --h3:1.8em;
+        
+        --h4:1.2em;
+        
+        --h5:1.8em;
+        
+        --p:1.4em;
+        
+        --p-nws:1.4em;
+        
+        --p-sp:1.4em;
+        
+        --tag:1em;
+        
+        --ln-b:1em;
+        
+        --a:1.5em;
+        
+        --a-sp:1.8em;
+        
+        --btn-pg:1.25em
+    } */
+
+    body{
+        font-size:20px!important
+    }
+
+    .title-block-section-container__body:before {
+        top:24px;
+    }
+
+}

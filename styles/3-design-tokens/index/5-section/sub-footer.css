@@ -1,6 +1,6 @@
 .additional-footer-container__body {
     background-color:var(--main-black);
-    height:100px;
+    height: 10vh;
     margin-top:30px
 }
 .additional-footer-container__sub-footer {

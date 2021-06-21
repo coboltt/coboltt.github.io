@@ -66,6 +66,9 @@
     margin:0 0 0 60%;
     padding:1% 1.5%;
     width:24%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     z-index:2
 }
 .content-slide {
@@ -79,7 +82,7 @@
     background-color:var(--main-white);
     border-radius:10px;
     color:var(--main-black);
-    font-size:1.5em;
+    font-size:var(--h2);
     margin-bottom:2%;
     text-align:center;
     text-transform:uppercase
