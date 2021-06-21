@@ -21,9 +21,11 @@
     width:800px
 }
 .info-organization-1__about-us {
+    background-color:var(--white-blur);
+    padding:10px;
     -webkit-line-clamp:16;
     -webkit-box-orient:vertical;
-    bottom:10%;
+    top:50%;
     display:-webkit-box;
     font-size:var(--p-nws);
     line-height:1.6;
@@ -48,7 +50,7 @@
     opacity:.4;
     position:absolute;
     top:2%;
-    width:100%;
+    width: 800px;
     z-index:-1
 }
 .bg-image-2__about-us {
@@ -58,9 +60,11 @@
     object-fit:cover
 }
 .info-organization-2__about-us {
+    background-color:var(--white-blur);
+    padding:10px;
     -webkit-line-clamp:16;
     -webkit-box-orient:vertical;
-    bottom:12%;
+    top:38%;
     display:-webkit-box;
     font-size:var(--p-nws);
     left:10%;
@@ -85,7 +89,7 @@
     opacity:.4;
     position:absolute;
     top:8%;
-    width:100%;
+    width: 800px;
     z-index:-1
 }
 .bg-image-3__about-us {
@@ -95,9 +99,11 @@
     object-fit:cover
 }
 .info-organization-3__about-us {
-    -webkit-line-clamp:16;
+    background-color:var(--white-blur);
+    padding:10px;
+    -webkit-line-clamp:17;
     -webkit-box-orient:vertical;
-    bottom:10%;
+    top:30%;
     display:-webkit-box;
     font-size:var(--p-nws);
     line-height:1.6;

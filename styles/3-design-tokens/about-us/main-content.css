@@ -9,11 +9,16 @@
 }
 .project-container__about-us,
 .section-container__about-us {
-    height:110vh;
+    height:100vh;
     margin:0 auto;
     position:relative;
     width:80vw
 }
+
+.section-container__about-us {
+    margin-bottom: 20vh;
+}
+
 .project-container__about-us:last-child {
     height:70vh;
     margin-top:15%
