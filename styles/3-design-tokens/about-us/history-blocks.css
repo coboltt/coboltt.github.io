@@ -41,7 +41,7 @@
     color:var(--dark-gray);
     font-size:var(--d-year);
     position:absolute;
-    right:14%;
+    left:58%;
     top:2%
 }
 .bg-image-container-2__about-us {
@@ -64,7 +64,7 @@
     padding:10px;
     -webkit-line-clamp:16;
     -webkit-box-orient:vertical;
-    top:38%;
+    top:34%;
     display:-webkit-box;
     font-size:var(--p-nws);
     left:10%;
@@ -114,4 +114,19 @@
     text-decoration:none;
     text-overflow:ellipsis;
     width:50%
+}
+
+@media (min-device-width:1700px) and (max-device-width:2400px) {
+    .info-organization-1__about-us {
+        top:40%;
+    }
+    .year-2__about-us {
+        left:48%;
+        top:2%
+    }
+    .info-organization-2__about-us {
+        top:34%;
+        left:14%;
+
+    }
 }
